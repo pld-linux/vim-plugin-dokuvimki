@@ -10,6 +10,8 @@ Group:		Applications/Editors/Vim
 Source0:	http://cloud.github.com/downloads/chimeric/dokuvimki/dokuvimki.tgz
 # Source0-md5:	7d6ace736da52213b76dd64725ff6a32
 URL:		http://www.chimeric.de/projects/dokuwiki/dokuvimki
+Requires:	python-dokuwikixmlrpc
+Requires:	python-libs >= 1:2.4
 Requires:	vim-rt >= 4:7.2.170
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
